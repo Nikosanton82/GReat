@@ -1,0 +1,95 @@
+[
+    {
+        "model": "main.category",
+        "pk": 1,
+        "fields": {
+            "name": "Pita Wrap",
+            "classification": "A,F,G,M,C",
+            "slug": "pita-wrap"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "name": "Pita Gyros vom Schwein",
+            "slug": "pita-wrap-pita-gyros-vom-schwein",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.90",
+            "image": "",
+            "ingredients": "Gyros, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "name": "Pita Gyros vom Huhn",
+            "slug": "pita-wrap-pita-gyros-vom-huhn",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.90",
+            "image": "",
+            "ingredients": "Gyros, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 3,
+        "fields": {
+            "category": 1,
+            "name": "Pita Souvlaki vom Schwein",
+            "slug": "pita-wrap-pita-souvlaki-vom-schwein",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.90",
+            "image": "",
+            "ingredients": "Souvlaki, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 4,
+        "fields": {
+            "category": 1,
+            "name": "Pita Souvlaki vom Huhn",
+            "slug": "pita-wrap-pita-souvlaki-vom-huhn",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.90",
+            "image": "",
+            "ingredients": "Souvlaki, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 5,
+        "fields": {
+            "category": 1,
+            "name": "Pita Bifteki",
+            "slug": "pita-wrap-pita-bifteki",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.90",
+            "image": "",
+            "ingredients": "Bifteki, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 6,
+        "fields": {
+            "category": 1,
+            "name": "Pita Loukaniko (griechische Wurst)",
+            "slug": "pita-wrap-pita-loukaniko-griechische-wurst",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.90",
+            "image": "",
+            "ingredients": "Loukaniko, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    }
+]

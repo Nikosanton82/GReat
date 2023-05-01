@@ -1,0 +1,20 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+<div class="text-center">
+    <h1>{{ object.name }}</h1>
+    <p>Category: {{ object.category }}</p>
+    <p>Price: €{{ object.price }}</p>
+    {% if object.image %}
+    <img src="{{ object.image.url }}" alt="{{ object.name }}" style="max-width: 100%;">
+    {% else %}
+        {# Display a default image or a placeholder #}
+    {% endif %}
+    <p>Ingredients: {{ object.ingredients }}</p>
+    {% if object.sauce %}
+        <p>Sauce: {{ object.sauce }}</p>
+    {% endif %}
+    <a href="{% url 'menu_item_update' slug=object.slug %}">Edit</a> |
+    <a href="{% url 'menu_item_delete' slug=object.slug %}">Delete</a>
+</div>
+{% endblock %}

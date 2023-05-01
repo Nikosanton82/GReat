@@ -1,0 +1,25 @@
+[
+    {
+        "model": "main.category",
+        "pk": 6,
+        "fields": {
+            "name": "Süße Crêpe",
+            "classification": "C,G,E,H,A",
+            "slug": "suesse-crepe"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 26,
+        "fields": {
+            "category": 6,
+            "name": "Basis - Mit Nutella oder weisse Schokolade",
+            "slug": "suesse-crepe-basis-mit-nutella-oder-weisse-schokolade",
+            "description": "Banane + € 0.60 - Erdbeer + € 0.60 - Bueno + € 0.70 - Oreo + € 0.30 - Kekse + € 0.30 - Haselnuss + € 0.30 - Kokosnuss + € 0.30",
+            "price": "4.30",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    }
+]

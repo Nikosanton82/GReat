@@ -1,0 +1,67 @@
+[
+    {
+        "model": "main.category",
+        "pk": 2,
+        "fields": {
+            "name": "Vegetarisch & Vegan",
+            "classification": null,
+            "slug": "vegetarisch-vegan"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 7,
+        "fields": {
+            "category": 2,
+            "name": "Pita Champignon",
+            "slug": "vegetarisch-vegan-pita-champignon",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.50",
+            "image": "",
+            "ingredients": "Champignon, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 8,
+        "fields": {
+            "category": 2,
+            "name": "Pita Halumi",
+            "slug": "vegetarisch-vegan-pita-halumi",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.90",
+            "image": "",
+            "ingredients": "Halumi, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 9,
+        "fields": {
+            "category": 2,
+            "name": "Pita Käse",
+            "slug": "vegetarisch-vegan-pita-kase",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.90",
+            "image": "",
+            "ingredients": "Käse, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 10,
+        "fields": {
+            "category": 2,
+            "name": "Pita Kalamari",
+            "slug": "vegetarisch-vegan-pita-kalamari",
+            "description": "BEILAGEN Pommes Tomaten Zwiebel SAUCEN Tzatziki oder Senfsauce",
+            "price": "4.90",
+            "image": "",
+            "ingredients": "Kalamari, Pommes, Tomaten, Zwiebel",
+            "sauce": "Tzatziki oder Senfsauce"
+        }
+    }
+]

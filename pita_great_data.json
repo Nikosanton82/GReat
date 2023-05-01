@@ -1,0 +1,67 @@
+[
+    {
+        "model": "main.category",
+        "pk": 5,
+        "fields": {
+            "name": "Pita Great",
+            "classification": null,
+            "slug": "pita-great"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 22,
+        "fields": {
+            "category": 5,
+            "name": "GReat Pita vom Huhn",
+            "slug": "pita-great-great-pita-vom-huhn",
+            "description": "",
+            "price": "8.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 23,
+        "fields": {
+            "category": 5,
+            "name": "GReat Pita vom Schwein",
+            "slug": "pita-great-great-pita-vom-schwein",
+            "description": "",
+            "price": "8.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 24,
+        "fields": {
+            "category": 5,
+            "name": "GReat Pita Halumi (Vegetarisch)",
+            "slug": "pita-great-great-pita-halumi-vegetarisch",
+            "description": "",
+            "price": "8.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 25,
+        "fields": {
+            "category": 5,
+            "name": "GReat Pita Champignon (Vegetarisch)",
+            "slug": "pita-great-great-pita-champignon-vegetarisch",
+            "description": "",
+            "price": "8.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    }
+]

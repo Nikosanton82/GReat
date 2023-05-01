@@ -1,0 +1,137 @@
+[
+    {
+        "model": "main.category",
+        "pk": 4,
+        "fields": {
+            "name": "Teller",
+            "classification": "A,F,G,M,C",
+            "slug": "teller"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 13,
+        "fields": {
+            "category": 4,
+            "name": "Gyros vom Schwein",
+            "slug": "teller-gyros-vom-schwein",
+            "description": "BEILAGEN: Pommes, Tomaten, Zwiebel SAUCEN: Tzatziki, Senfsauce, Ketchup",
+            "price": "9.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 14,
+        "fields": {
+            "category": 4,
+            "name": "Gyros vom Huhn",
+            "slug": "teller-gyros-vom-huhn",
+            "description": "BEILAGEN: Pommes, Tomaten, Zwiebel SAUCEN: Tzatziki, Senfsauce, Ketchup",
+            "price": "9.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 15,
+        "fields": {
+            "category": 4,
+            "name": "Souvlaki vom Schwein",
+            "slug": "teller-souvlaki-vom-schwein",
+            "description": "BEILAGEN: Pommes, Tomaten, Zwiebel SAUCEN: Tzatziki, Senfsauce, Ketchup",
+            "price": "9.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 16,
+        "fields": {
+            "category": 4,
+            "name": "Souvlaki vom Huhn",
+            "slug": "teller-souvlaki-vom-huhn",
+            "description": "BEILAGEN: Pommes, Tomaten, Zwiebel SAUCEN: Tzatziki, Senfsauce, Ketchup",
+            "price": "9.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 17,
+        "fields": {
+            "category": 4,
+            "name": "Bifteki",
+            "slug": "teller-bifteki",
+            "description": "BEILAGEN: Pommes, Tomaten, Zwiebel SAUCEN: Tzatziki, Senfsauce, Ketchup",
+            "price": "9.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 18,
+        "fields": {
+            "category": 4,
+            "name": "Loukaniko (griechische Wurst)",
+            "slug": "teller-loukaniko-griechische-wurst",
+            "description": "BEILAGEN: Pommes, Tomaten, Zwiebel SAUCEN: Tzatziki, Senfsauce, Ketchup",
+            "price": "9.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 19,
+        "fields": {
+            "category": 4,
+            "name": "Schopfsteaks",
+            "slug": "teller-schopfsteaks",
+            "description": "BEILAGEN: Pommes, Tomaten, Zwiebel SAUCEN: Tzatziki, Senfsauce, Ketchup",
+            "price": "9.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 20,
+        "fields": {
+            "category": 4,
+            "name": "Lammkotelett",
+            "slug": "teller-lammkotelett",
+            "description": "BEILAGEN: Pommes, Tomaten, Zwiebel SAUCEN: Tzatziki, Senfsauce, Ketchup",
+            "price": "14.50",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 21,
+        "fields": {
+            "category": 4,
+            "name": "Grillmix",
+            "slug": "teller-grillmix",
+            "description": "BEILAGEN: Pommes, Tomaten, Zwiebel SAUCEN: Tzatziki, Senfsauce, Ketchup",
+            "price": "15.00",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    }
+]

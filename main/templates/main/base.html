@@ -51,8 +51,8 @@
 
       <div class="languages d-none d-md-flex align-items-center">
         <ul>
-          <li>En</li>
-          <li><a href="#">De</a></li>
+          <li>De</li>
+          <li><a href="#">En</a></li>
         </ul>
       </div>
     </div>
@@ -62,9 +62,9 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Restaurantly</a></h1>
+      {% comment %} <h1 class="logo me-auto me-lg-0"><a href="index.html">GReat</a></h1> {% endcomment %}
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="{% url 'index' %}" class="logo me-auto me-lg-0"><img src="{% static 'main/img/LOGO.webp' %}" alt="" class="img-fluid"> GReat</a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -96,7 +96,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Tisch Reservieren</a>
 
     </div>
   </header><!-- End Header -->
@@ -106,12 +106,12 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>Restaurantly</span></h1>
-          <h2>Delivering great food for more than 18 years!</h2>
+          <h1>Willkommen bei <span>GReat</span></h1>
+          <h2>Griechisches Essen in Linz genießen!</h2>
 
           <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
-            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Unser Menü</a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Tisch reservieren</a>
           </div>
         </div>
         <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
@@ -136,7 +136,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Restaurantly</h3>
+              <h3>GReat</h3>
               <p>
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>

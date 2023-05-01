@@ -1,0 +1,39 @@
+[
+    {
+        "model": "main.category",
+        "pk": 3,
+        "fields": {
+            "name": "Salat",
+            "classification": null,
+            "slug": "salat"
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 11,
+        "fields": {
+            "category": 3,
+            "name": "Griechische Bauernsalat",
+            "slug": "salat-griechische-bauernsalat",
+            "description": "",
+            "price": "7.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    },
+    {
+        "model": "main.menuitem",
+        "pk": 12,
+        "fields": {
+            "category": 3,
+            "name": "Hallumi Salat",
+            "slug": "salat-hallumi-salat",
+            "description": "",
+            "price": "9.90",
+            "image": "",
+            "ingredients": "",
+            "sauce": null
+        }
+    }
+]

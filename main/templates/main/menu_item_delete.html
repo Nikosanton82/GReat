@@ -1,0 +1,11 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+    <h1>Delete {{ object.name }}?</h1>
+    <p>Are you sure you want to delete this menu item?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Yes, delete</button>
+    </form>
+    <a href="{% url 'menu_item_list' %}">Cancel</a>
+{% endblock %}
